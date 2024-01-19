@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MethodParam">
+      <class name="AllureTest.TestCase3">
         <methods>
-          <include name="diff" invocation-numbers="0 1"/>
+          <include name="testMethod3"/>
+          <include name="testMethod4"/>
         </methods>
-      </class> <!-- MethodParam -->
+      </class> <!-- AllureTest.TestCase3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
