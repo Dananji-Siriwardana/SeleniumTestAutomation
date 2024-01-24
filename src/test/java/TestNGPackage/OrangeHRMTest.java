@@ -4,6 +4,9 @@ package TestNGPackage;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,8 +67,14 @@ public class OrangeHRMTest {
     
     @Test
     public void logout() {
-    	//driver.findElement(By.name(null))
-    	driver.findElement(By.xpath("/html/body/div/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]/a")).click();
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    
+    	WebElement userDropdownTab = driver.findElement(By.className("oxd-userdropdown-tab"));
+    	userDropdownTab.click();
+    	
+    	WebElement userDropdownLink = driver.findElement(By.className("oxd-userdropdown-link"));
+    	userDropdownLink.click();
+    	
     	
 
     	}

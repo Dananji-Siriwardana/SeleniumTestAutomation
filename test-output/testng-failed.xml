@@ -3,17 +3,17 @@
 <suite name="Failed suite [SmokeTesting]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="AllureTest.TestCase1">
-        <methods>
-          <include name="testMethod1"/>
-        </methods>
-      </class> <!-- AllureTest.TestCase1 -->
       <class name="AllureTest.TestCase3">
         <methods>
           <include name="testMethod3"/>
           <include name="testMethod4"/>
         </methods>
       </class> <!-- AllureTest.TestCase3 -->
+      <class name="AllureTest.TestCase1">
+        <methods>
+          <include name="testMethod1"/>
+        </methods>
+      </class> <!-- AllureTest.TestCase1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SmokeTesting] -->

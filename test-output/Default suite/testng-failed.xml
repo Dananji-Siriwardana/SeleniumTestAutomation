@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AllureTest.TestCase3">
+      <class name="TestNGPackage.OrangeHRMTest">
         <methods>
-          <include name="testMethod3"/>
-          <include name="testMethod4"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- AllureTest.TestCase3 -->
+      </class> <!-- TestNGPackage.OrangeHRMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

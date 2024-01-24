@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="1" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-19T17:47:57 IST" name="SmokeTesting" finished-at="2024-01-19T17:47:57 IST" duration-ms="176">
+  <suite started-at="2024-01-24T17:38:05 IST" name="SmokeTesting" finished-at="2024-01-24T17:38:05 IST" duration-ms="311">
     <groups>
     </groups>
-    <test started-at="2024-01-19T17:47:57 IST" name="Test" finished-at="2024-01-19T17:47:57 IST" duration-ms="176">
+    <test started-at="2024-01-24T17:38:05 IST" name="Test" finished-at="2024-01-24T17:38:05 IST" duration-ms="311">
       <class name="AllureTest.TestCase3">
-        <test-method signature="testMethod3()[pri:0, instance:AllureTest.TestCase3@4d1bf319]" started-at="2024-01-19T17:47:57 IST" name="testMethod3" finished-at="2024-01-19T17:47:57 IST" duration-ms="5" status="SKIP">
+        <test-method signature="testMethod3()[pri:0, instance:AllureTest.TestCase3@4201c465]" started-at="2024-01-24T17:38:05 IST" name="testMethod3" finished-at="2024-01-24T17:38:05 IST" duration-ms="5" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[M3 will be skipped]]>
@@ -47,7 +47,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod3 -->
-        <test-method signature="testMethod4()[pri:0, instance:AllureTest.TestCase3@4d1bf319]" started-at="2024-01-19T17:47:57 IST" name="testMethod4" finished-at="2024-01-19T17:47:57 IST" duration-ms="6" status="SKIP">
+        <test-method signature="testMethod4()[pri:0, instance:AllureTest.TestCase3@4201c465]" started-at="2024-01-24T17:38:05 IST" name="testMethod4" finished-at="2024-01-24T17:38:05 IST" duration-ms="7" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[M4 will be skipped]]>
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- testMethod4 -->
       </class> <!-- AllureTest.TestCase3 -->
       <class name="AllureTest.TestCase1">
-        <test-method signature="testMethod1()[pri:0, instance:AllureTest.TestCase1@6b695b06]" started-at="2024-01-19T17:47:57 IST" name="testMethod1" finished-at="2024-01-19T17:47:57 IST" duration-ms="14" status="FAIL">
+        <test-method signature="testMethod1()[pri:0, instance:AllureTest.TestCase1@7a5ceedd]" started-at="2024-01-24T17:38:05 IST" name="testMethod1" finished-at="2024-01-24T17:38:05 IST" duration-ms="15" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -135,7 +135,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- testMethod1 -->
       </class> <!-- AllureTest.TestCase1 -->
       <class name="AllureTest.TestCase2">
-        <test-method signature="testMethod2()[pri:0, instance:AllureTest.TestCase2@312aa7c]" started-at="2024-01-19T17:47:57 IST" name="testMethod2" finished-at="2024-01-19T17:47:57 IST" duration-ms="49" status="PASS">
+        <test-method signature="testMethod2()[pri:0, instance:AllureTest.TestCase2@4f32a3ad]" started-at="2024-01-24T17:38:05 IST" name="testMethod2" finished-at="2024-01-24T17:38:05 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->

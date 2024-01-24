@@ -1,0 +1,1 @@
+{"uuid":"66920a31-4f73-4494-9d20-8627524daba3","name":"ScreenshotTest.SsTest.setup","children":["c4f3ae1f-998b-40b0-a427-8d0ca542d190"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1706092634201,"stop":1706092643503}],"afters":[],"start":1706092634200,"stop":1706092643503}
